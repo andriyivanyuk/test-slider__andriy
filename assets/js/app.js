@@ -77,7 +77,7 @@ function initiateSlider() {
       infinite: true,
       variableWidth: true,
       focusOnSelect: false,
-      swipe: false,
+      swipe: true,
       responsive: [{
         breakpoint: 855,
         settings: {
@@ -93,7 +93,7 @@ function initiateSlider() {
       infinite: true,
       variableWidth: true,
       focusOnSelect: false,
-      swipe: false,
+      swipe: true,
       responsive: [{
         breakpoint: 855,
         settings: {

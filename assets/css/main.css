@@ -1,78 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import 'reset.css';
 
-/* reset styles */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-ul[class],
-ol[class] {
-  padding: 0;
-}
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  padding-inline-start: 0;
-}
-
-body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  /* line-height: 1.5; */
-  font-family: "Roboto", sans-serif;
-}
-a {
-  text-decoration: none;
-}
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-.button {
-  outline: none;
-  box-shadow: none;
-}
-
-/* custom styles */
-/* .container {
-  max-width: 88%;
-  margin: 0 auto;
-  overflow: hidden;
-} */
 .best-sell-products__title {
   font-size: 24px;
-  padding: 77px 0 83px;
+  padding: 77px 0 50px;
 }
 .new-products__title {
   font-size: 24px;
-  padding: 77px 0 83px;
+  padding: 77px 0 50px;
 }
 .product {
   width: 280px;
@@ -88,6 +22,7 @@ img {
 .product__main-img {
   width: 100%;
   object-fit: contain;
+  max-height: 215px;
 }
 .product__title {
   font-size: 16px;
@@ -219,7 +154,7 @@ img {
   margin-bottom: 138px;
 }
 
-@media (max-width: 375px) { 
+@media (max-width: 375px) {
   .price-container {
     flex-direction: column;
   }
@@ -233,12 +168,12 @@ img {
   }
   .buy-btn {
     margin-left: initial;
-    /* width: 220px; */
     width: 100%;
     margin-top: 22px;
     text-align: center;
     width: 220px;
   }
+  .product__like {
+    right: 25%;
+  }
 }
-
-/* @media (max-width: 830px) {  */
