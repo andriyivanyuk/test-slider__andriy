@@ -59,7 +59,7 @@ function displayProducts(products, wrapperName) {
                              Есть в наличии ${product.available}
                              </span>
                         </div>
-                        <img class="buy-btn" src="assets/img/buy-button.png">
+                        <a class="buy-btn">Купить</a>
                     </div>
                     <img class="product__like" src="assets/img/like-btn.png" alt="">
                     </div>
@@ -76,7 +76,14 @@ function initiateSlider() {
       slidesToScroll: 1,
       infinite: true,
       variableWidth: true,
-      focusOnSelect: false
+      focusOnSelect: false,
+      swipe: false,
+      responsive: [{
+        breakpoint: 855,
+        settings: {
+          slidesToShow: 3,
+        }
+      }]
     });
 
     $(newProductsWrapper).slick({
@@ -85,7 +92,14 @@ function initiateSlider() {
       slidesToScroll: 1,
       infinite: true,
       variableWidth: true,
-      focusOnSelect: false
+      focusOnSelect: false,
+      swipe: false,
+      responsive: [{
+        breakpoint: 855,
+        settings: {
+          slidesToShow: 3,
+        }
+      }]
 
     });
   });
