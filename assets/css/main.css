@@ -49,6 +49,7 @@
   position: absolute;
   right: 0;
   bottom: 228px;
+  cursor: pointer;
 }
 .price__amount {
   color: #333333;
@@ -81,6 +82,7 @@
   font-size: 13px;
   box-sizing: border-box;
   border-radius: 2px;
+  cursor: pointer;
 }
 .cards-wrapper {
   display: flex;
