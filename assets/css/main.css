@@ -154,6 +154,16 @@
 }
 
 @media (max-width: 375px) {
+  .slick-track {
+    column-gap: 25px;
+  }
+  .product {
+    width: 220px;
+    height: 465px;
+  }
+  .product__title {
+    margin-top: 43px;
+  }
   .price-container {
     flex-direction: column;
   }
