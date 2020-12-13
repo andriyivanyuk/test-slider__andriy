@@ -120,8 +120,6 @@ window.onload = function () {
     displayProducts(products, newProductsWrapper);
     shuffleNewProducts();
     initiateSlider();
-
-    console.log(productList);
   });
 };
 
