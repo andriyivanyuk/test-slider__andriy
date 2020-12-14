@@ -1,4 +1,4 @@
-@import 'reset.css';
+@import "reset.css";
 
 .best-sell-products__title {
   font-size: 24px;
@@ -159,6 +159,10 @@
   .slick-track {
     column-gap: 25px;
   }
+  .new-prod-wrapper .slick-arrow.slick-next,
+  .best-prod-wrapper .slick-arrow.slick-next {
+    display: none !important;
+  }
   .product {
     width: 220px;
     height: 465px;
@@ -184,6 +188,6 @@
     width: 220px;
   }
   .product__like {
-    right: 25%;
+    right: 15%;
   }
 }
